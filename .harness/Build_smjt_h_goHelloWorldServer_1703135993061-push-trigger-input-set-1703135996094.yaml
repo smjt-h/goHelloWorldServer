@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_smjt_h_goHelloWorldServer_1703135993061-push-trigger-input-set
+  identifier: Build_smjt_h_goHelloWorldServer_1703135993061pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: autogen
+  pipeline:
+    identifier: Build_smjt_h_goHelloWorldServer_1703135993061
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
