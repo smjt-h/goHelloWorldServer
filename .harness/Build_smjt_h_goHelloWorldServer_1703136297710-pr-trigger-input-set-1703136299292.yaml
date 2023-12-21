@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_smjt_h_goHelloWorldServer_1703136297710-pr-trigger-input-set
+  identifier: Build_smjt_h_goHelloWorldServer_1703136297710prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: autogen
+  pipeline:
+    identifier: Build_smjt_h_goHelloWorldServer_1703136297710
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
