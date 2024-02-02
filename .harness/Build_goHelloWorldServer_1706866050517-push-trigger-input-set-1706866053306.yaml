@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_goHelloWorldServer_1706866050517-push-trigger-input-set
+  identifier: Build_goHelloWorldServer_1706866050517pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: qajt
+  pipeline:
+    identifier: Build_goHelloWorldServer_1706866050517
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
